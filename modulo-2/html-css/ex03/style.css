@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 10px;
+    /* Remove margens padrão */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte padrão */
+    font-size: 16px;
+    /* Define o tamanho da fonte padrão */
+    height: 100vh;
+    /* Define a altura para 100% da altura da viewport */
+    background-image: linear-gradient(to right, #042940, #005C53);
+    /* Fundo com gradiente */
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    /* Fonte diferente para o título */
+    color: #FFFFFF;
+    /* Cor do texto */
+    text-align: center;
+    /* Centraliza o texto */
+    margin-top: 20px;
+    /* Espaçamento superior */
+    font-size: 36px;
+    /* Tamanho da fonte do título */
+    text-shadow: 2px 2px 4px #000000;
+    /* Sombra para o texto */
+}
+
+p.sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte diferente para o parágrafo */
+    color: #fdfdfd;
+    /* Cor do texto */
+    line-height: 1.5;
+    /* Espaçamento entre linhas */
+    margin: 5px;
+    /* Margem superior e inferior */
+    max-width: 600px;
+    /* Largura máxima do parágrafo */
+    font-size: 14px;
+    /* Tamanho da fonte do parágrafo */
+    text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    /* Fonte diferente para o título */
+    color: #FFFFFF;
+    /* Cor do texto */
+    text-align: center;
+    /* Centraliza o texto */
+    margin-top: 20px;
+    /* Espaçamento superior */
+    font-size: 36px;
+    /* Tamanho da fonte do título */
+    text-shadow: 2px 2px 4px #000000;
+    /* Sombra para o texto */
+}
+p.medidas {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte diferente para o parágrafo */
+    color: #fdfdfd;
+    /* Cor do texto */
+    line-height: 1.5;
+    /* Espaçamento entre linhas */
+    margin: 5px;
+    /* Margem superior e inferior */
+    max-width: 1000px;
+    /* Largura máxima do parágrafo */
+    font-size: 14px;
+    /* Tamanho da fonte do parágrafo */
+    text-shadow: 2px 2px 4px #000000;
+}

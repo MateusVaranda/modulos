@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    </background-color>
+    <h1>Vamos trabalhar nesse site com imagens</h1>
+    <p>Onde tera seu tamanho G P M, onde diminui sozinha depedendo do tamanho da tela;</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/image-p.png" type="image/png"> <!--aqui a imagem vai cair para tela de celular 750px abaixo-->
+        <source media="(max-width: 1050px)" srcset="imagens/image-m.png" type="image/png"> <!--aqui a imagem de pc dependendo do pix cai para media-->
+        <img src="imagens/image-g.png" alt="imagem flex">
+    </picture>
+
+    <h1>Reproduzir audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="audio/pajama.mp3" controls autoplay></audio> <!--Adicionando audio em HTML5.-->
+    <h1>Vamos colocar videos hospedado no meu proprio servidor</h1>
+    <p>O video que sera colocado esta no meu computador.</p>
+
+    <video src="videos/Video-2.webm" width="560" controls></video>
+    <br><br>
+
+    <video width="560" poster="imagens/imagem-programador.jpg" controls autoplay loop> <!--colocando capa no video para ficar mais bonito.-->
+        <source src="videos/Video-2.webm" type="video/webm">
+        <source src="videos/Video-2.mp4" type="video/mp4">
+        Seu navegador nao suporta video HTML5.
+    </video>
+    
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pGfNw__S5gg?si=LxDRFEJBfgQsZ5qr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

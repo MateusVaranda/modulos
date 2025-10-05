@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte do site*/
+}
+
+body { /* colocamos a cor de fundo do site*/
+    height: 100vh; /* utilizamos isso para que a cor de fundo ocupe a tela toda*/
+    background-image: linear-gradient(to bottom, #9F5FFA, #B2C3FA);
+}
+
+main {
+    background-color: white; /* cor de fundo do conteudo*/
+    border-radius: 25px; /* borda arredondada*/
+    box-shadow: 0 10px 25px #005C53;   /* sombra da borda*/   
+    width: 600px; /* largura do conteudo*/
+    padding: 15px; /* espaçamento do conteudo*/
+    margin: auto; /* centraliza o conteudo*/
+}
+
+h1 {
+    text-align: center; /* centraliza o texto*/
+    color: #007FE8; /* cor do texto*/
+    text-shadow: 2px 2px 5px #00000079; /* sombra do texto*/
+}
+
+h2 {
+    color: #033cfa; /* cor do texto*/
+    text-shadow: 1px 1px 2px #00000079; /* sombra do texto*/
+}
+p {
+    text-align: justify; /* justifica o texto*/
+    color: #0595ee; /* cor do texto*/
+}
