@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Bebas Neue';
+    --fonte3: 'Sriracha';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #427a8167;
+}
+
+header {
+    background-color: #175052;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 5vh;
+}
+
+section {
+    padding: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    
+}
+
+section > p {
+    padding-bottom: 40px;
+}
+
+section > h2 {
+    margin-bottom: 20px;
+}
+
+section > h3 {
+    margin-bottom: 20px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.normal img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+section.imagem {
+    background-color: #175052;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 0pxx black;
+}
+
+section#img01 {
+    background-image: url('imagens/html5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('imagens/css3.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url('imagens/HTML-CSS-IMAGEM.png');
+}
+
+section#img04 {
+    background-image: url('imagens/css-02.jpg');
+     background-position: center;
+    background-size: cover;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #175052;
+    text-align: center;
+    font: var(--fonte1);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+}
+footer a {
+   
+    color: rgb(0, 255, 13);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foto-footer {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #09ff0062;
+}
