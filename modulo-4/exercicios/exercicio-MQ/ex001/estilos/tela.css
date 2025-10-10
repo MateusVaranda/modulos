@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu li {
+    background-color: rgba(16, 20, 54, 0.678);
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+menu ul {
+    list-style: none;
+    background-color: rgba(34, 70, 70, 0.493);
+    text-align: center;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+article > h2 {
+    text-align: center;
+}
