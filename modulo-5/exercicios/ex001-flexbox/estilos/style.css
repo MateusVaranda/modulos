@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+
+div.itens {
+    background-color: lightseagreen;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
