@@ -88,3 +88,19 @@ Quando diminui o espaço do container o ultimo filho, o item. ele vai quebrar a 
 
 flex-wrap: wrap-reverse
 quando diminui ele quebra a linha de acordo com eixo tranversal no oposto.
+
+
+
+---------------Justify-content--------------------
+
+--Justify-content: flex-Start o item primario vai ficar grudado no mais-start, e o item vazio vai ficar no main-end, ou seja o espaço branco que nao esta sendo utilizado.
+
+--Justify-content: flex-end o item primario vai ficar grudado no main-end, e o item vazio vai ficar no main-start.
+
+--Justify-content: center vai deixar os itens tudo centralizado o mesmo espaço d main-start e main-end
+
+--Justify-content: space-between pega o primeiro elemento coloca proximo ao main-start e o ultimo elemento no main- end, e deixa o espaçamento entre os elementos iguais.
+
+--Justify-content: space-evenly deixa espaçamento antes e depois de cada itens iguais.
+
+--Justify-content: space-around no container branco, com 3 elemento por exemplo, vai dividir o container em branco em 3 espacos, e nesse 3 espaço ele vai centralizar o conteudo dentro dele.

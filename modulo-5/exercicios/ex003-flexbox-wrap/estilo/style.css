@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: lightcoral;
+    display: flex;
+   
+    flex-direction: row-reverse;  /*Mudança de flex-direction */
+    flex-wrap: wrap-reverse;   /* Quebrou a linha no reverso da direção*/
+
+}
+
+
+
+div.container2 {
+    background-color: lightcoral;
+    display: flex;
+   
+    flex-direction: row;  /*Mudança de flex-direction */
+    flex-wrap: wrap;   /* quebrou de linha */
+}
+
+
+
+div.container3 {
+    background-color: lightcoral;
+    display: flex;
+   
+    flex-direction: column;  /*Mudança de flex-direction */
+
+}
+
+
+
+div.container4 {
+    background-color: lightcoral;
+    display: flex;
+   
+    flex-direction: column-reverse;  /*Mudança de flex-direction */
+}
+
+
+
+
+
+div.itens {
+    background-color: lightseagreen;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
