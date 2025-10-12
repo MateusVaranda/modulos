@@ -2,8 +2,9 @@
 
 div.container {
     background-color: lightcoral;
-    display: flex;
-    flex-direction: column;
+
+
+    display: flex; /*coloca os elementos um do lado do outro*/
 }
 
 div.itens {
@@ -11,5 +12,7 @@ div.itens {
     border: 1px solid black;
     text-align: center;
     padding: 10px;
+
+    flex: auto; /*faz com que prenche o campo completo da div filho com container, sem quebra linhas.*/
 
 }

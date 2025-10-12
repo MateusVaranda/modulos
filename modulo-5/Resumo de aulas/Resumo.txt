@@ -1,0 +1,90 @@
+---- CAIXA FLEXBOX ----
+Caixa pai, chamado de conteiner, e nele tem seus filhos, que são os itens.
+A vantagem e que o conteiner pai flexbox, faz com que os filhos trabalha da forma correta dentro do tamanha da tela.
+Ele e unimedissional
+
+
+---- Grid layout ----
+Ele e multidimessional
+ele e uma caixa flexissivel.
+a vantagem e que se quiser organizar as grades dos itens, consegue editar seus tamanhos. Criar interfaces com itens da forma mais inteligente.
+
+
+
+
+------------- FLEXBOX -------------
+
+
+
+1- INTRODUÇÃO:
+
+flexible box module : Trabalha com caixa. nao podemos definir o tamanho. O conteudo o conteiner vai definir o tamanho e o formato da caixa.
+Elemento pai e o container, Display flex.
+Os itens vai receber flex-itens.
+display: flex; /*coloca os elementos um do lado do outro*/
+flex: auto; /*faz com que prenche o campo completo da div filho com container, sem quebra linhas.*/
+
+container
+--flex-direction: row.
+linha deitada, leitura da esquerda para direita.
+*eixos-axis*
+main-axis.
+topo esquerdo em linha reta para a direita.
+cross-axis.
+topo esquerdo em linha em pé de cima para baixo.
+
+
+container
+--flex-direction: row-reverse.
+linda deitada, leitura da direita para esquerda. 
+*eixos-axis*
+main-axis.
+topo direito em linha reta para a esquerda.
+cross-axis.
+topo direito em linha em pé de cima para baixo.
+
+
+
+container
+--flex-direction: column.
+linha em pé, leitura de cima para baixo.
+*eixos-axis*
+main-axis
+vertical
+coluna em pé, do topo para baixo
+cross-axis
+horizontal
+do topo em linha reta para direita
+
+
+container
+--flex-direction: column-reverse
+linha em pé, leitura de baixo para cima.
+*eixos-axis*
+main-axis
+vertical
+coluna em pé, de baixo para cima
+cross-axis
+horizontal
+de baixo esquerda para direita
+
+
+
+---EIXOS (AXIS)---
+1--main-axis
+-Main-Star --------LINHA------------> Main-End
+-Cross-Start-------LINHA------------> Cross-End
+
+
+
+container
+----Flex-wrap----
+
+flex-wrap: nowrap
+nao deixa quebra a linha, e encolhe os filhos do container, ou seja os itens.
+
+flex-wrap: wrap
+Quando diminui o espaço do container o ultimo filho, o item. ele vai quebrar a linha, de acordo com o eixo transversal.
+
+flex-wrap: wrap-reverse
+quando diminui ele quebra a linha de acordo com eixo tranversal no oposto.
