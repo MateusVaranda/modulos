@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #D8F213;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: #010440;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    color: #D8F213;
+    text-shadow: 1px 1px 4px #e1ff009d;
+    display: flex;
+}
+
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header > nav > a {
+    background-color: #D8F213;
+    color: #010440;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: #0cb7bd;
+    color: #010440;
+    transition: background-color .5s;
+}
+
+main {
+    background-color: white;
+    color: #102620;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.527);
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+main > h3 {
+    text-align: center;
+}
+
+main > ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
+  margin: 10px auto;
+  width: 25%;
+  background-color: #f9f9f9cc;
+  border-left: 5px solid #bfff00; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.37); 
+}
+
+ul > li {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #010440;
+  color: #e8f800;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-top: 4px solid #e8f800;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-info h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #e8f800;
+}
+
+.footer-info p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 20px;
+}
