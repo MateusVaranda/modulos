@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+
+        div.conteiner1 {
+            border: 3px solid blue;
+            height: 150px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 5px;
+            align-items: center; /*centralizando de cima para baixo vertical lines*/
+            justify-items: center; /*centralizando de uma lado para o outro, horizontal lines*/
+            align-content: center;
+            justify-content: center;
+
+        }
+
+        div.item1 {
+            border: 3px solid red;
+            padding: 5px;
+
+        }
+
+
+
+
+        div.conteiner2 {
+            margin-top: 10px;
+            border: 3px solid blue;
+            height: 150px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 5px;
+            align-items: end; /*centralizando de cima para baixo vertical lines*/
+            justify-items:end; /*centralizando de uma lado para o outro, horizontal lines*/
+            align-content: end;
+            justify-content: end;
+
+        }
+
+        div.item2 {
+            border: 3px solid red;
+            padding: 5px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="conteiner1">
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+        <div class="item1">D</div>
+        <div class="item1">E</div>
+        <div class="item1">F</div>
+        <div class="item1">G</div>
+    </div>
+
+    <div class="conteiner2">
+        <div class="item2">A</div>
+        <div class="item2">B</div>
+        <div class="item2">C</div>
+        <div class="item2">D</div>
+        <div class="item2">E</div>
+        <div class="item2">F</div>
+        <div class="item2">G</div>
+    </div>
+</body>
+</html>
