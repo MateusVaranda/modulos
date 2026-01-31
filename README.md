@@ -5,14 +5,15 @@ Este repositório reúne **todos os módulos, exercícios e projetos práticos**
 O conteúdo aqui representa minha base sólida em **desenvolvimento front-end**, construída com foco em **boas práticas, organização de código e responsividade**.
 
 
-## 🎓 Formação
-- **Curso:** HTML5 e CSS3 (Completo)
-- **Professor:** Gustavo Guanabara  
-- **Plataforma:** Curso em Vídeo  
-- **Status:** ✅ Concluído (todos os módulos)
+## Formação
+
+- **Curso:** HTML5 e CSS3.
+- **Professor:** Gustavo Guanabara. 
+- **Plataforma:** Curso em Vídeo.  
+- **Status:** Concluído.
 
 
-## 🧠 Conteúdos abordados
+## Conteúdos abordados
 Ao longo do curso, foram estudados e aplicados os seguintes conceitos:
 
 
@@ -34,13 +35,14 @@ Ao longo do curso, foram estudados e aplicados os seguintes conceitos:
 - Organização e reutilização de estilos
 
 
-## 🗂 Estrutura do repositório
-Os arquivos estão organizados de forma modular, acompanhando a progressão do curso:
-
-
-**text**
-modulo-1/html-css          → Fundamentos de HTML e CSS
-modulo-2/html-css          → Semântica e estilização
-modulo-3/html-css          → Exercícios práticos
-modulo-4/exercicios        → Media Queries e responsividade
-modulo-5                   → Projeto final utilizando CSS Grid
+**Aulas**
+modulo-1/html-css         
+ Fundamentos de HTML e CSS
+modulo-2/html-css          
+ Semântica e estilização
+modulo-3/html-css          
+ Exercícios práticos
+modulo-4/exercicios        
+ Media Queries e responsividade
+modulo-5                   
+ Projeto final utilizando CSS Grid
